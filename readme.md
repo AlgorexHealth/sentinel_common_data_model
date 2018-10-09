@@ -20,7 +20,7 @@ The SCDM was developed in accordance with the Mini-Sentinel Common Data Model Gu
 <br>
 
 #### How to access the SCDM
-Navigate to the SCDM branch in this repository by using the drop down menu in the upper left-hand corner or click [this link.](https://dev.sentinelsystem.org/projects/QA/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2Fscdm)
+Navigate to the SCDM branch in this repository by using the drop down menu in the upper left-hand corner or click <b>[this link.](https://dev.sentinelsystem.org/projects/QA/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2Fscdm) </b>
 
 
 <br>
