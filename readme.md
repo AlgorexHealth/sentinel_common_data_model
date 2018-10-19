@@ -5,8 +5,6 @@
 
 # Sentinel Common Data Model (SCDM)  
 
-<br>
-
 #### What is this?  
 This repository contains documentation (data dictionary) for the Sentinel Common Data Model (SCDM), which is the standard data structure necessary for executing Sentinel's analytic programs. Note that data must be in the form of SAS datasets in order to use these analytic programs.  
 
