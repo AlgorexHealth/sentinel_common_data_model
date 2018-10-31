@@ -20,5 +20,4 @@ For an example dataset in the SCDM format, please visit the Sentinel website to 
 Follow the guidelines above for creating a SCDM/translating your data into SCDM.  
 
 #### Additional Information
-
-We acknowledge that the structure and content of data sources differs, thus Sentinel does not provide specific instructions on how to convert data to SCDM format. We welcome feedback, comments, and suggestions pertaining to the SCDM documentation. Email us [here](mailto:info@sentinelsystem.org?subject=Git).
+The Sentinel Operations Center has limited capacity to support use of our tools. However, we welcome feedback , comments, and suggestions pertaining to our documentation or tools. Email us [here](mailto:info@sentinelsystem.org?subject=Git).
