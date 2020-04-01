@@ -20,11 +20,9 @@ Description: The SCDM Procedure Table contains one record per unique combination
 ## NOTES
 
 1. `PatID` is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.
-
 2. For efficiency medical utilization data is captured in 3 tables:
+    - **Encounter**: the encounter record that characterizes the outpatient visit or hospital stay
+    - **Diagnosis**: the diagnosis code(s) associated with the encounter record
+    - **Procedure**: the procedure code(s) associated with the encounter record
 
- - **Encounter**: the encounter record that characterizes the outpatient visit or hospital stay
- - **Diagnosis**: the diagnosis code(s) associated with the encounter record
- - **Procedure**: the procedure code(s) associated with the encounter record
-
- These 3 tables and the Inpatient Pharmacy, Inpatient Transfusion, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses and procedures for an encounter should have the same `EncounterID`. It is allowable to have "orphan" diagnosis or procedure records with EncounterIDs that do not have a match in the Encounter table.
+    These 3 tables and the Inpatient Pharmacy, Inpatient Transfusion, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses and procedures for an encounter should have the same `EncounterID`. It is allowable to have "orphan" diagnosis or procedure records with EncounterIDs that do not have a match in the Encounter table.

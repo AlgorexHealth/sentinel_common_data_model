@@ -20,8 +20,7 @@ Description: The SCDM Enrollment Table has a start/stop structure that contains 
 3. `Enr_End` should not be imputed using the date of death found in the Death table.
 
 4. "Chart variable aims to identify enrollment periods for which medical charts cannot be requested. Potential scenarios include:
+    1. Charts cannot be requested for Medicare members (all enrollment periods for Medicare members should be assigned `Chart='N'`)
+    2. Charts cannot be requested for administrative services only (ASO) populations (all ASO enrollment periods should be assigned `Chart='N'`)
 
- 1. Charts cannot be requested for Medicare members (all enrollment periods for Medicare members should be assigned `Chart='N'`)
- 2. Charts cannot be requested for administrative services only (ASO) populations (all ASO enrollment periods should be assigned `Chart='N'`)
-
- "If there is no definitive information indicating that medical charts cannot be requested for member enrollment period(s), records should be assigned `Chart = 'Y'`.
+    "If there is no definitive information indicating that medical charts cannot be requested for member enrollment period(s), records should be assigned `Chart = 'Y'`.
