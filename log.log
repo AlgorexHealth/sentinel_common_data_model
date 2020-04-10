@@ -1,0 +1,27 @@
+* 0649c73 : COD
+* c2b8c74 : properly intented list in notes
+* 37a97e2 : corrected missing superscript tag and properly intented list in notes
+* 7898127 : corrected missing code tag and properly intented list in notes
+* e1eeaba : Corrected spacing issue between pipes and content start that prevented table from rendering properly
+* 3bb00be :  Spacing Changes Demographic Table
+* cd65d60 : List of Tables Spacing Changes
+* 8ece3e7 : Initial Commit
+* f0b7007 : COMM-2769: Added link to the Sentinel website
+* d273cb7 : COMM-2769: Added link to Sentinel website
+* 26edfc4 : Edits per Scientific Communications Team
+* 540d0a9 : Edits per Scientific Communications Team
+* f6c218f : readme.md edited online with Bitbucket
+* 4c0e618 : readme.md edited online with Bitbucket
+* c928a9b : Updated spacing again
+* 46f95e6 : Updated spacing
+* 0844c8a : Updated logo
+* 1fb3eeb : Formatting
+*   135957b : Merge branch 'master' of https://dev.sentinelsystem.org/scm/qa/sentinel_common_data_model
+|\  
+| * 990ff19 : PM-3334: Added bolding to link
+| * 6c6bfa3 : PM-3334: Added How to access the SCDM section to readme
+* | a0bc03f : Formatting
+|/  
+* d686280 : PM-3334: Minor spacing adjustments
+* f52214f : PM-3334: Added resources folder for image reference
+* 4b5bd3f : PM-3334: Migrated SCDM landing page
