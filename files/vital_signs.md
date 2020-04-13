@@ -2,7 +2,7 @@
 
 Description: The SCDM Vital Signs Table contains one record per result/entry.
 
-| Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
+| Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
 |---|---|---|---|---|
 | PatID<sup>1</sup> | Char (Site specific length) | Unique member identifier | Arbitrary person-level identifier. Used to link across tables. | `123456789012345` |
 | EncounterID<sup>2</sup> | Char (Site specific length) | Unique encounter identifier | Arbitrary encounter-level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Inpatient Pharmacy, & Inpatient Transfusion tables. | `123456789012345_12242005_99218766_IP` |
@@ -21,4 +21,3 @@ Description: The SCDM Vital Signs Table contains one record per result/entry.
 
 1. PatID is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.
 2. The Encounter, Diagnosis, Procedure, Inpatient Transfusion, Inpatient Pharmacy, Vital Signs, and Mother-Infant Linkage tables are linked by EncounterID. All diagnoses & procedures for an encounter should have the same EncounterID.
-
