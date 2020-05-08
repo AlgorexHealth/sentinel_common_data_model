@@ -7,7 +7,7 @@ The SCDM Mother-Infant Linkage Table contains one record per MPatID, CPatID, and
 3. Children (with CPatID) who were not linked to a mother (MPatID, MBirth_Date, Age, EncounterID, EncType, ADate, DDate, Birth_Type, and Birth_Type_Primes will have missing values).
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
-|--|--|--|--|--|
+|---|---|---|---|---|
 | MPatID<sup>1</sup> | Char(Site specific length) | Unique member identifier. Text string; left justified. | Arbitrary person-level identifier. Used to link across tables. Length is DP specific. Must match mom "PatID" value in all other SCDM tables.Blank for child-only records. | `123456789012345` |
 | MBirth_Date | Numeric(4) | SAS Date | Mother Birth_Date value from SCDM Demographic table.  Blank for child-only records. | `12/5/1971` |
 | Age | Numeric(3) | 10-54 inclusive | Mother's age as of ADate.Blank for child-only records. | `32` |
