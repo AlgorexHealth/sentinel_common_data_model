@@ -2,12 +2,21 @@
 
 Description: The SCDM Demographic Table contains one record per PatID with the most recent information on Birth_Date, Sex, Race/Ethnicity, and Zip Code.
 
-| Variable | Description |
-| --- | --- |
-| `PatID` | Arbitrary person-level identifier. Used to link across tables. A new enrollment period generates a new record, but the same person should have the same PatID on subsequent records.<br><br>**Valid Values**: Unique member identifier<br><br>**Note 1**: `PatID` is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.<br><br>**Format**: Char(Site Specific Length)<br>**Example**: `123456789012345` |
-| `Birth_Date` | Date of birth. <br><br>**Valid Values**: SAS date<br><br>**Format**: Numeric(4) <br>**Example**: `12/5/1971` |
-| `Sex` | Sex. <br><br>**Valid Values**:  `A` = Ambiguous (e.g., transgender/hermaphrodite)<br>`F` = Female<br>`M` = Male<br>`U` = Unknown<br><br>**Format**: Char(1) <br>**Example**: `F`|
-|`Hispanic`| A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. <br><br>**Valid Values**: `N` = No<br>`Y` = Yes<br> `U` = Unknown <br><br>**Format**: Char(1) <br>**Example**: `N`|
-|`Race` | Race <br><br>**Valid Values**: <ul><li>`0` = Unknown <li>`1` = American Indian or Alaska Native (A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment.) <li>`2` = Asian (A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.) <li>`3` = Black or African American (A person having origins in any of the black racial groups of Africa.) <li>`4` = Native Hawaiian or Other Pacific Islander (A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.)<li>`5` = White (A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.)</ul><br><br>**Note 1**: Please use only one race value per member. <br><br>**Format**: Char(1)<br>**Example**:`2` |
-| `Zip` | First 5 digits of the ZIP code of the member's most recent primary residence.<br><br>**Valid Values**: ZIP code<br><br>**Format**: Char(5)<br>**Example**:`04090`|
-|`Zip_Date`|Earliest date that the ZIP code is believed to be valid. Date will be updated/overwritten as ZIP code changes over time. <br><br>**Valid Values**: SAS date <br><br>**Format**: Numeric (4) <br>**Example**: `12/12/2009` |
+| Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
+| --- | --- | --- | --- | --- |
+| `PatID`<sup>1</sup> | Char (Site specific length) | Unique member identifier | Arbitrary person-level identifier. Used to link across tables. | `123456789012345` |
+| `Birth_Date` | Numeric (4) | SAS date | Date of birth. | `12/5/1971` |
+| `Sex` | Char (1) | `A` = Ambiguous (e.g., transgender/hermaphrodite)<br>`F` = Female<br>`M` = Male<br>`U` = Unknown | Sex. | `F` |
+| `Hispanic` | Char (1) | `N` = No<br>`Y` = Yes<br> `U` = Unknown | A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. | `N` |
+| `Race` | Char (1) | `0` = Unknown | Please use only one race value per member.<br> | `2` |
+| | | `1` = American Indian or Alaska Native | A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment. | |
+| | | `2` = Asian | A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. | |
+| | | `3` = Black or African American | A person having origins in any of the black racial groups of Africa. | |
+| | | `4` = Native Hawaiian or Other Pacific Islander | A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. | |
+| | | `5` = White | A person having origins in any of the original peoples of Europe, the Middle East, or North Africa. | |
+| `Zip` | Char (5) | Zip code | First 5 digits of the ZIP code of the member's most recent primary residence. | `04090` |
+| `Zip_Date` | Numeric (4) | SAS date | Earliest date that the ZIP code is believed to be valid. Date will be updated/overwritten as ZIP code changes over time. | `12/12/2009` |
+
+## NOTE
+
+1. `PatID` is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.
