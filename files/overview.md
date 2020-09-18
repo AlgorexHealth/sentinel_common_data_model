@@ -1,4 +1,4 @@
-# Overview and Description of the Common Data Model v7.0.0
+# Overview and Description of the Common Data Model v7.1.0
 
 ## Sentinel
 
