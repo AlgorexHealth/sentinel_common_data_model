@@ -20,5 +20,6 @@
 |V6.0.2|10/02/17|Updated Inpatient Pharmacy table description.|SOC|
 |V7.0.0|10/31/18|Added new table: Mother-Infant Linkage.|SOC|
 |V7.0.1|12/31/19|Updated Table Description for Table 8. Inpatient Transfusion.|SOC|
+|V7.1.0|7/18/20|Updated Laboratory Result Table as follows. Added new allowable values to several existing variables in order to include new Covid-19 diagnostic test results. New MS_Test_Name value of SARS_COV_2 added.  New MS_Test_Sub_Category value of IA_RAP = immunoassay, rapid and SEQ=sequencing added.  New Specimen_Source value of SALIVA=saliva added.|SOC|
 
 [Return to Table of Contents](atoc_scdm.md) 
