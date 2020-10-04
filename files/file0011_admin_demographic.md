@@ -1,6 +1,6 @@
 # SCDM: Demographic Table Structure
 
-Description: The SCDM Demographic Table contains one record per PatID with the most recent information on Birth_Date, Sex, Race/Ethnicity, and Zip Code.
+Description: The SCDM Demographic Table contains one record per `PatID` with the most recent information on `Birth_Date`, `Sex`, `Race/Ethnicity`, and `Zip Code`.
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |
@@ -17,6 +17,9 @@ Description: The SCDM Demographic Table contains one record per PatID with the m
 | `Zip` | Char (5) | Zip code | First 5 digits of the ZIP code of the member's most recent primary residence. | `04090` |
 | `Zip_Date` | Numeric (4) | SAS date | Earliest date that the ZIP code is believed to be valid. Date will be updated/overwritten as ZIP code changes over time. | `12/12/2009` |
 
-## NOTE
+## NOTES:
 
 1. `PatID` is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.
+
+[Return to Table of Contents](atoc_scdm.md)
+

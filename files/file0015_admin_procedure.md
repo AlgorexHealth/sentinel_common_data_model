@@ -26,6 +26,6 @@ Description: The SCDM Procedure Table contains one record per unique combination
     - **Diagnosis**: the diagnosis code(s) associated with the encounter record
     - **Procedure**: the procedure code(s) associated with the encounter record
 
-    These 3 tables and the Inpatient Pharmacy, Inpatient Transfusion, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses and procedures for an encounter should have the same `EncounterID`. It is allowable to have "orphan" diagnosis or procedure records with EncounterIDs that do not have a match in the Encounter table.
+    These 3 tables and the Inpatient Pharmacy, Inpatient Transfusion, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses and procedures for an encounter should have the same `EncounterID`. It is allowable to have "orphan" diagnosis or procedure records with `EncounterID`s that do not have a match in the Encounter table.
 
 [Return to Table of Contents](atoc_scdm.md) 

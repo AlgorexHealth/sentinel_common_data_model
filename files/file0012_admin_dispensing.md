@@ -8,7 +8,7 @@ Description: The SCDM Outpatient Pharmacy Dispensing Table contains one record p
 | `RxDate` | Numeric (4) | SAS date | Dispensing date (as close as possible to date the person received the dispensing). | `11/29/2005` |
 | `NDC` | Char (11) | National Drug Code | Please expunge any place holders (e.g., '-' or extra digit). | `00006007431` |
 | `RxSup`<sup>2</sup> | Numeric (4) | Days supply | Number of days that the medication supports based on the number of doses as reported by the pharmacist. This amount is typically found on the dispensings record. It should not be necessary to calculate this variable for use in the SCDM. Positive integer values are expected. | `30` |
-| `RxAmt`<sup>2</sup> | Numeric (4) | Amount dispensed | Number of units (pills, tablets, vials) dispensed. Net amount per NDC per dispensing. This amount is typically found on the dispensings record. It should not be necessary to calculate this variable for use in the SCDM. Positive values are expected. | `60` |
+| `RxAmt`<sup>2</sup> | Numeric (4) | Amount dispensed | Number of units (pills, tablets, vials) dispensed. Net amount per `NDC` per dispensing. This amount is typically found on the dispensings record. It should not be necessary to calculate this variable for use in the SCDM. Positive values are expected. | `60` |
 
 ## NOTES:
 

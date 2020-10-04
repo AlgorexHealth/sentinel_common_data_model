@@ -1,6 +1,6 @@
 # SCDM: Cause of Death Table Structure
 
-Description: The SCDM Cause of Death Table contains one record per unique combination of PatID and COD.<sup>1</sup> When legacy data have conflicting reports, please make a local determination as to which to use. There is typically a 1-2 year lag in death registry data.
+Description: The SCDM Cause of Death Table contains one record per unique combination of `PatID` and `COD`.<sup>1</sup> When legacy data have conflicting reports, please make a local determination as to which to use. There is typically a 1-2 year lag in death registry data.
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@ Description: The SCDM Cause of Death Table contains one record per unique combin
 | `Source` | Char (1) | `L` = Other, locally defined<br>`N` = National Death Index<br>`S` = State Death files<br>`T` = Tumor data | Source of cause of death information. | `S` |
 | `Confidence` | Char (1) | `E` = Excellent<br>`F` = Fair<br>`P` = Poor | Confidence in the accuracy of the cause of death based on source, match, number of reporting sources, discrepancies, etc. | `E` |
 
-# NOTES:
+## NOTES:
 
 1. For efficiency death data is captured in 2 tables:
     - **Death**: the record that characterizes the death date and source of that information

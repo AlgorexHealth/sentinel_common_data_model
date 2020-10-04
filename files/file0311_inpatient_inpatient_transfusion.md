@@ -1,12 +1,12 @@
 # SCDM: Inpatient Transfusion Table Structure
 
-The SCDM Inpatient Transfusion table contains data on inpatient blood transfusion administrations. It contains one record per unique combination of `PatID` and `TransID`. Each record represents a unique inpatient pharmacy transfusion administration, as defined by unique value combinations of `PatID` / `TransCode` / `TransCode_Type` / `TDate_Start` / `Ttime_Start`.
+Description: The SCDM Inpatient Transfusion table contains data on inpatient blood transfusion administrations. It contains one record per unique combination of `PatID` and `TransID`. Each record represents a unique inpatient pharmacy transfusion administration, as defined by unique value combinations of `PatID` / `TransCode` / `TransCode_Type` / `TDate_Start` / `Ttime_Start`.
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
 |---|---|---|---|---|
 | `PatID`<sup>1</sup> | Char (Site specific length) | Unique member identifier | Arbitrary person-level identifier. Used to link across tables. | `123456789012345` |
 | `EncounterID`<sup>2</sup> | Char (Site specific length) | Unique encounter identifier | Arbitrary encounter-level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Inpatient Pharmacy, & Inpatient Transfusion tables. | `123456789012345_12242005_99218766_IP` |
-| `TransID` | Char (15) | Unique transfusion administration identifier | Retain b/c useful to map back to source data | `123456789012345` |
+| `TransID` | Char (15) | Unique transfusion administration identifier | Retain because useful to map back to source data | `123456789012345` |
 | `TransCode` | Char (15) | Code value for an infusion product | Must be paired with the correct TransCode_Type | `123451224200599` |
 | `TransCode_Type` | Char(2) | `CD` = CODABAR<br>`IS` = ISBT | Transfusion product code type. This variable combined with the TransCode variable should be used to capture any type of Inpatient Infusion product in the source data. Other code types will be added as new terminologies are used. | `CD` |
 | `Orig_TransProd` | Char (Site specific length) | Original product name/mneumonic | Name of product within Data Partner | `Thawed POOLED PLATELETS` |
