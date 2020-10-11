@@ -34,7 +34,7 @@ The Sentinel Operations Center has limited capacity to support use of our tools.
 
 [Navigate back to the Sentinel Initiative SCDM web page](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model).
 
-[Navigate to SCDM Version 7.1.0. History of Modifications](history-of-modifications.md)
+[Navigate to SCDM Version 7.1.0. History of Modifications]([history-of-modifications.md](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/history-of-modifications.md?at=refs%2Fheads%2FDEV-11439))
 
-[Navigate to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md)
+[Navigate to SCDM Version 7.1.0. Table of Contents]([atoc_scdm.md](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=DEV-11439))
 
