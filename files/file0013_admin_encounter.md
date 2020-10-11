@@ -37,4 +37,4 @@ Description: The SCDM Encounter Table contains one record per `PatID` and `Encou
 
 4. The `Provider` variable must be consistent within a health plan. An inpatient stay must only have one `Provider`, even if multiple providers performed procedures.
 
-[Return to Table of Contents](atoc_scdm.md) 
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md) 

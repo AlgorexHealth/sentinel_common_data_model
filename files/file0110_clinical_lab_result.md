@@ -46,4 +46,4 @@ Description: The SCDM Laboratory Result Table contains one record per result/ent
 
 3. There are three dates that can be associated to the laboratory results: Order date (`ORDER_DT`), Laboratory date (`Lab_dt`), and Result date (`RESULT_DT`). The typical sequence of these date variables, from earliest to latest occurrence, is: `ORDER_DT` ≤ `Lab_dt` ≤ `RESULT_DT`. One or more of these dates is populated for each record in the Laboratory Result Table. These dates are all populated if available in source data.
 
-[Return to Table of Contents](atoc_scdm.md) 
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md) 

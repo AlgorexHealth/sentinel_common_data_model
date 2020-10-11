@@ -1,4 +1,4 @@
-# Overview and Description of the Common Data Model v7.1.0.
+# Overview and Description of the Common Data Model v7.1.0
 
 ## Sentinel
 
@@ -19,4 +19,6 @@ This data model is freely available to all.
 * For more information about Sentinel visit the website at: [www.sentinelinitiative.org](https://www.sentinelinitiative.org/)
 * For comments and suggestions, please email: [info@sentinelsystem.org](info@sentinelsystem.org)
 
-[Return to Table of Contents](atoc_scdm.md)
+[Navigate to SCDM Version 7.1.0. History of Modifications](history-of-modifications.md)
+
+[Navigate to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md)

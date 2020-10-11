@@ -37,4 +37,4 @@ Description: The SCDM Diagnosis Table contains one record per unique combination
 
 5. Sentinel Data Partners receive individual guidance for populating the `PAdmit` field.
 
-[Return to Table of Contents](atoc_scdm.md) 
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md) 

@@ -30,4 +30,4 @@ Description: The SCDM Mother-Infant Linkage Table contains one record per `MPatI
 
 2. The Encounter, Diagnosis, Procedure, Inpatient Transfusion, Inpatient Pharmacy, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses and procedures for an encounter should have the same `EncounterID`. If more than 1 delivery encounter occur on the same `ADate`, then the values are based on the encounter selected from the following hierarchy: `IP` > `ED` > `AV` > `IS` > `OA`.
 
-[Return to Table of Contents](atoc_scdm.md) 
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md) 

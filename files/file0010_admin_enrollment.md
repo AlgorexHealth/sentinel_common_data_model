@@ -25,5 +25,5 @@ Description: The SCDM Enrollment Table has a start/stop structure that contains 
 
     If there is no definitive information indicating that medical charts cannot be requested for member enrollment period(s), records should be assigned `Chart` = `'Y'`.
 
-[Return to Table of Contents](atoc_scdm.md)
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md)
 

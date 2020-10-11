@@ -16,4 +16,7 @@
 |8. [Inpatient Transfusion](file0311_inpatient_inpatient_transfusion.md) | Created by selected Data Partners. | The SCDM Inpatient Transfusion Table contains data on inpatient transfusion administrations. It contains one record per unique combination of `PatID`, `TransID`, `TDate_Start`, and `TTime_Start`. Each record represents one unit of a unique inpatient transfusion. |
 |9. [Mother&#8209;Infant Linkage](file0410_mil_mother_infant_linkage.md) | Created by selected Data Partners. | The SCDM Mother-Infant Linkage Table contains one record per `MPatID`, `CPatID`, and `ADate`. This table is created following identification of mothers (via evidence of live delivery by women aged 10-54 inclusive) and infants (via date of birth) in the Sentinel Distributed Database (SDD). The file may include: <ol><li> Live birth deliveries (with `MPatID` and `ADate`) that were linked to a child (`CPatID`);</li><li>Live birth deliveries (with `MPatID`and `ADate`) that were not linked to a child (`CPatID`, `CBirth_Date`, `Sex`, and `CEnr_Start` will have missing values); and</li><li>Children (with `CPatID`) who were not linked to a mother (`MPatID`, `MBirth_Date`, `Age`, `EncounterID`, `EncType`, `ADate`, `DDate`, `Birth_Type`, and `Birth_Type_Primes` will have missing values).</li></ol> |
 
-[Return to Table of Contents](atoc_scdm.md)
+[Return to Overview](overview.md) 
+
+[Navigate to SCDM Version 7.1.0. History of Modifications](history-of-modifications.md)
+

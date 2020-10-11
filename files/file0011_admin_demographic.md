@@ -21,5 +21,5 @@ Description: The SCDM Demographic Table contains one record per `PatID` with the
 
 1. `PatID` is a pseudoidentifier with a consistent crosswalk to the true identifier retained by the source Data Partner. For analytical data sets requiring patient-level data, only the pseudoidentifier is used to link across all information belonging to a patient.
 
-[Return to Table of Contents](atoc_scdm.md)
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md)
 

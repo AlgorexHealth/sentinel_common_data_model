@@ -23,4 +23,4 @@ Description: The SCDM Vital Signs Table contains one record per result/entry.
 
 2. The Encounter, Diagnosis, Procedure, Inpatient Transfusion, Inpatient Pharmacy, Vital Signs, and Mother-Infant Linkage tables are linked by `EncounterID`. All diagnoses & procedures for an encounter should have the same `EncounterID`.
 
-[Return to Table of Contents](atoc_scdm.md) 
+[Return to SCDM Version 7.1.0. Table of Contents](atoc_scdm.md) 
