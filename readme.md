@@ -16,9 +16,14 @@ The SCDM was developed by the Sentinel Operations Center (SOC) in accordance wit
 The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, PatID. 
 
 The following versions of the SCDM are available:<br>
+
 [<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2FDEV-11439)<br>
 Date: 7/18/20<br>
-Updated Laboratory Result Table as follows. Added new allowable values to several existing variables in order to include new Covid-19 diagnostic test results. New `MS_Test_Name` value of SARS_COV_2 added.  New `MS_Test_Sub_Category` value of IA_RAP = immunoassay, rapid and SEQ=sequencing added. `New Specimen_Source` value of SALIVA=saliva added.<br>
+Updated Laboratory Result Table as follows:<br> 
+* Added new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br> 
+* New `MS_Test_Name` value of SARS_COV_2 added.<br>  
+* New `MS_Test_Sub_Category` value of IA_RAP = immunoassay, rapid and SEQ=sequencing added.<br> 
+* `New Specimen_Source` value of SALIVA=saliva added.<br>
 
 #### How to Access the SCDM 
 To translate data into the SCDM, navigate to the SCDM branch in this repository by using the drop down menu in the upper left-hand corner or click [<b>this link</b>](https://dev.sentinelsystem.org/projects/QA/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2Fscdm) to access the documentation.   
