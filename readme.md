@@ -14,7 +14,7 @@ Sentinel routine querying tools are SAS® programs. This means the SCDM-formatte
 #### What is the SCDM?
 The SCDM was developed by the Sentinel Operations Center (SOC) in accordance with the [<b>Mini-Sentinel Common Data Model Guiding Principles</b>](https://www.sentinelinitiative.org/sites/default/files/data/distributed-database/Mini-Sentinel_CommonDataModel_GuidingPrinciples_v1.0_0.pdf) and was originally modeled after the [<b>Health Care Systems Research Network Virtual Data Warehouse (HCSRN/VDW)</b>](http://www.hcsrn.org/en/Tools%20&%20Materials/VDW/). 
 
-The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, PatID. 
+The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, `PatID`. 
 
 
 #### The following versions of the SCDM are available:<br>
