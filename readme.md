@@ -16,19 +16,17 @@ The SCDM was developed by the Sentinel Operations Center (SOC) in accordance wit
 The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, `PatID`. 
 
 ## The following versions of the SCDM are available<br>
-[<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2FDEV-11439)<br>
+[<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM7.1.0)<br>
 Date: 7/18/20<br>
 Updated Laboratory Result Table to add new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br> 
 
 ## Getting Started<br>
-Follow the guidelines above for creating a SCDM/translating your data into SCDM.  
+To begin translating your data into the SCDM format, see the SCDM versions available at the link(s) above.
 
 ## Additional Resources <br>
 For an example dataset in the SCDM format, please visit the Sentinel website to download [<b>Medicare Claims Synthetic Public Use Files in Sentinel Common Data Model Format</b>](https://www.sentinelinitiative.org/sentinel/surveillance-tools/software-toolkits/Medicare-SynPUFs-in-SCDM) files.
 
-For historic versions of the SCDM, navigate to the branch in this repository by using the drop down menu in the upper left-hand corner or click [<b>this link</b>](https://dev.sentinelsystem.org/projects/QA/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2Fscdm) to access the documentation.   
-
 ## Additional Information <br>
 The Sentinel Operations Center has limited capacity to support use of our tools. However, we welcome feedback, comments, and suggestions pertaining to our documentation or tools. Email us [<b>here</b>](mailto:info@sentinelsystem.org?subject=Git).  
 
-[<b>Navigate back to the Sentinel Initiative SCDM web page</b>](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model).
+[<b>Navigate back to the Sentinel Initiative SCDM web page</b>](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model)
