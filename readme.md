@@ -8,7 +8,15 @@ This repository contains documentation (data dictionary) for the Sentinel Common
 
 ## How to Access SCDM 7.1.0.<br>  
 
-To translate data into SCDM Version 7.1.0, navigate to the SCDM branch in this repository by using the drop down menu in the upper left-hand corner or click [this link](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=refs%2Fheads%2FSCDM7.1.0) to access the documentation.
+To familiarize yourself with SCDM Version 7.1.0, start with
+
+[SCDM Version 7.1.0. Overview](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/overview.md?at=SCDM7.1.0)
+
+[SCDM Version 7.1.0. History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/history-of-modifications.md?at=SCDM7.1.0)
+
+To access the SCDM Version 7.1.0. Tables directly, start with:
+
+[SCDM Version 7.1.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
 
 ## How to Access Other SCDM Versions<br>
 
@@ -27,6 +35,3 @@ The Sentinel Operations Center has limited capacity to support use of our tools.
 
 [Navigate back to the Sentinel Initiative SCDM web page](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model)
 
-[Navigate to SCDM Version 7.1.0. History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/history-of-modifications.md?at=SCDM7.1.0)
-
-[Navigate to SCDM Version 7.1.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
