@@ -8,7 +8,7 @@ This repository contains documentation (data dictionary) for the Sentinel Common
 
 ## How to Access SCDM 7.1.0.<br>  
 
-To familiarize yourself with SCDM Version 7.1.0, start with:
+To familiarize yourself with SCDM Version 7.1.0., start with:
 
 * [SCDM Version 7.1.0. Overview](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/overview.md?at=SCDM7.1.0)
 
