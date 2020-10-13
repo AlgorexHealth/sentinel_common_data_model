@@ -30,5 +30,4 @@ For an example dataset in the SCDM format, please visit the Sentinel website to 
 The Sentinel Operations Center has limited capacity to support use of our tools. However, we welcome feedback, comments, and suggestions pertaining to our documentation or tools. Email us [here](mailto:info@sentinelsystem.org?subject=Git).
 
 
-[Navigate back to the Sentinel Initiative SCDM web page](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model)
-
+[<b>Navigate back to the Sentinel Initiative SCDM web page</b>](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model)
