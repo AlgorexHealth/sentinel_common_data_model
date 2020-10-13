@@ -1,4 +1,4 @@
-![alt text](resources/logo.png)
+﻿![alt text](resources/logo.png)
 
 # Sentinel Common Data Model (SCDM) Version 7.1.0.
 
