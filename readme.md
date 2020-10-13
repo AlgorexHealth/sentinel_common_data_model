@@ -8,23 +8,19 @@ This repository contains documentation (data dictionary) for the Sentinel Common
 
 ## How to Access SCDM 7.1.0.<br>  
 
-To familiarize yourself with SCDM Version 7.1.0, start with
+To familiarize yourself with SCDM Version 7.1.0, start with:
 
-[SCDM Version 7.1.0. Overview](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/overview.md?at=SCDM7.1.0)
+* [SCDM Version 7.1.0. Overview](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/overview.md?at=SCDM7.1.0)
 
-[SCDM Version 7.1.0. History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/history-of-modifications.md?at=SCDM7.1.0)
+* [SCDM Version 7.1.0. History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/history-of-modifications.md?at=SCDM7.1.0)
 
 To access the SCDM Version 7.1.0. Tables directly, start with:
 
-[SCDM Version 7.1.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
+* [SCDM Version 7.1.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
 
 ## How to Access Other SCDM Versions<br>
 
 SCDM Version 7.1.0. will be followed by Version 8.0.0. and 8.1.0. 
-
-## Getting Started<br>
-
-Follow the guidelines above for creating a SCDM/translating your data into SCDM.
 
 ## Additional Resources <br>
 For an example dataset in the SCDM format, please visit the Sentinel website to download [<b>Medicare Claims Synthetic Public Use Files in Sentinel Common Data Model Format</b>](https://www.sentinelinitiative.org/sentinel/surveillance-tools/software-toolkits/Medicare-SynPUFs-in-SCDM) files.
