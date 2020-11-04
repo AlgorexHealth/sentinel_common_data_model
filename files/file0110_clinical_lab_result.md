@@ -2,7 +2,7 @@
 
 Description: The SCDM Laboratory Result Table contains one record per result/entry. Only include resulted lab tests.<sup>1</sup> Data Partners are strongly encouraged to review the comprehensive [Sentinel Common Data Model Laboratory Result Table Documentation](https://www.sentinelinitiative.org/sites/default/files/data/distributed-database/Sentinel_Common-Data-Model_Laboratory-Result-Table-Documentation_0.pdf) for details on how to populate each variable.
 
-COVID-19 alert: LOINC codes for SARS-CoV-2 Diagnostic Tests are mapped to SCDM Lab Result Variables in [LOINCtoSCDMmappinglist_v1.csv](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/LOINC%20to%20SCDM%20mapping%20list_v1.csv?at=SCDM7.1.0)  
+COVID&#45;19 alert: LOINC codes for SARS-CoV-2 Diagnostic Tests are mapped to SCDM Lab Result Variables in [LOINCtoSCDMmappinglist_v1.xlsx](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/LOINC%20to%20SCDM%20mapping%20list_v1.xlsx?at=SCDM7.1.0)  
 
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Definition / Comments / Guideline | Example |
