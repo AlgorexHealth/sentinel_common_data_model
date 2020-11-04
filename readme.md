@@ -23,6 +23,9 @@ To access the SCDM Version 7.1.0. Tables directly, start with:
 SCDM Version 7.1.0. will be followed by Version 8.0.0. and 8.1.0. 
 
 ### Additional Resources <br>
+For mappings of COVID-19/SARS CoV 2 Diagnostic Test LOINCs to SCDM Lab Results:  
+[<b>LOINCtoSCDMmappinglist_v1.csv</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/LOINC%20to%20SCDM%20mapping%20list_v1.csv?at=SCDM7.1.0)  
+
 For an example dataset in the SCDM format, please visit the Sentinel website to download [<b>Medicare Claims Synthetic Public Use Files in Sentinel Common Data Model Format</b>](https://www.sentinelinitiative.org/sentinel/surveillance-tools/software-toolkits/Medicare-SynPUFs-in-SCDM) files.
 
 ### Additional Information
