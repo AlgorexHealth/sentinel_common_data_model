@@ -8,7 +8,7 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SAS_lengths_reference_table.md). | `123456789` |
 | `Birth_Date` | Num(4) | SAS date | Optional | Date of birth. | `12/5/1971` |
 | `Sex` | Char(1) | `A` = Ambiguous (e.g., transgender/hermaphrodite)<br>`F` = Female<br>`M` = Male<br>`U` = Unknown | Required | Sex. | `F` |
 | `Hispanic` | Char(1) | `N` = No<br>`Y` = Yes<br> `U` = Unknown | Required | A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. | `N` |

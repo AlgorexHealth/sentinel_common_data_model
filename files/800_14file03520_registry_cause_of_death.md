@@ -8,7 +8,7 @@ Unique Row: `PatID`, `CodeType`, `COD`.
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SAS_lengths_reference_table.md). | `123456789` |
 | `COD` | Char(8) | Diagnosis code | Required | Remove decimal points, site specific suffixes and prefixes. | `J180` |
 | `CodeType` | Char(2) | `09` = ICD&#45;9<br>`10` = ICD&#45;10 | Cause of death code type. | `09` |
 | `CauseType` | Char(1) | `C` = Contributory<br>`I` = Immediate / Primary<br>`O` = Other<br>`U` = Underlying | Cause of death type. There should be only one "Underlying" code for cause of death, per `PatID`. | `C` |

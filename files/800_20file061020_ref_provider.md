@@ -8,9 +8,9 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `ProviderID`<sup>2</sup> | Num(#) | Unique provider identifier | Required |Identifier for the individual provider who wrote a prescription in the Prescribing table, was identified in a row in the Dispensing table, made a diagnosis in the Diagnosis table, or performed a procedure or service in the Procedure table. As with the `PatID`, the provider identifier is a pseudoidentifier with a consistent crosswalk to the real identifier. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `99218766` |
-| `Specialty`<sup>3</sup> | Char(#)	| Provider specialty | Required | Code indicating the medical specialty of the Provider. If an individual provider has more than one specialty, select the specialty under which the provider practices most often. Data Partners are requested to map to the most specific description possible. That is, Map to a 10&#45;character Taxonomy Code if possible; otherwise use a 2&#45;character specialty code. Length of either 2 or 10 per row, aligning with `Specialty_CodeType`. Use `99` for unknown or undefined individual provider specialty. | `45` or `207X00000X` |
-| `Specialty_CodeType`	| Char(1) | `2` = 2&#45;character code<br> `0` = 10&#45;character code" | Required | `2` = a 2&#45;character code as found in the Specialty_Codes table.<br> `0` = a 10&#45;character code as found in the Specialty_Codes table. | `2` |
+| `ProviderID`<sup>2</sup> | Num(#) | Unique provider identifier | Required |Identifier for the individual provider who wrote a prescription in the Prescribing table, was identified in a row in the Dispensing table, made a diagnosis in the Diagnosis table, or performed a procedure or service in the Procedure table. As with the `PatID`, the provider identifier is a pseudoidentifier with a consistent crosswalk to the real identifier. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SAS_lengths_reference_table.md). | `99218766` |
+| `Specialty`<sup>3</sup> | Char(#)	| Provider specialty | Required | Code indicating the medical specialty of the Provider. See  [Reference Tables](SCDM_v8.0.0_reference_tables_v1.0.0.xlsx). If an individual provider has more than one specialty, select the specialty under which the provider practices most often. Data Partners are requested to map to the most specific description possible. That is, Map to a 10&#45;character Taxonomy Code if possible; otherwise use a 2&#45;character specialty code. Length of either 2 or 10 per row, aligning with `Specialty_CodeType`. Use `99` for unknown or undefined individual provider specialty. | `45` or `207X00000X` |
+| `Specialty_CodeType`	| Char(1) | `2` = 2&#45;character code<br> `0` = 10&#45;character code" | Required | `2` = a 2&#45;character code as found in the "PVD.specialty" Table within the [Reference Tables](SCDM_v8.0.0_reference_tables_v1.0.0.xlsx).<br> `0` = a 10&#45;character code as found in the Specialty_Codes table. | `2` |
 
 
 ## NOTES
@@ -26,6 +26,6 @@
 
 1. `ProviderID` links to the same-named variable in the Dispensing, Diagnosis, Procedure, and if populated, the Prescribing tables.
    
-2. CMS Provider Taxonomy & Specialty Codes: Use only those values found in "Specialty Codes" Reference Table.  These are a subset from the [CMS Taxonomy Crosswalk.](https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/MedicareProviderSupEnroll/Downloads/TaxonomyCrosswalk.pdf)
+2. CMS Provider Taxonomy & Specialty Codes: Use only those values found in "PVD.specialty" Table, located within the [Reference Tables](SCDM_v8.0.0_reference_tables_v1.0.0.xlsx).  These are a subset from the [CMS Taxonomy Crosswalk.](https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/MedicareProviderSupEnroll/Downloads/TaxonomyCrosswalk.pdf)
 
 [Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

@@ -9,7 +9,7 @@ Unique Row: `PatID`.
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SAS_lengths_reference_table.md). | `123456789` |
 | `DeathDt` | Num(4) | SAS date | Required | Date of death. | `1/10/2019` |
 | `DtImpute` | Char(1) | `B` = Both month and day imputed<br>`D` = Day imputed<br>`M` = Month imputed<br>`N` = Not imputed | Required | When `DeathDt` is imputed, this variable indicates which parts of the date were imputed. | `N` |
 | `Source` | Char(1) | `L` = Other, locally defined<br>`N` = National Death Registry<br>`S` = Death files from State/ Region/ Province<br>`T` = Tumor data | Required | Source of death information. | `S` |
