@@ -23,4 +23,4 @@
 
 2. `FacilityID` links to the same-named variable in the Encounter and Laboratory Results table.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

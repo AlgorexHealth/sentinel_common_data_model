@@ -8,9 +8,9 @@
 |(1)|Data inclusion rules|The Sentinel Operations Center endeavors to have Data Partners include all of their source data in each ETL database.  Please discuss with SOC any potential deviations from including all of your source data.|
 |(2)|Table names|While there are distinct table names in this model, Data Partners can name their actual SAS datasets whatever name is useful to them.  Table names also can vary across ETLs. It is through use of Common Components that actual table names are identified for Sentinel queries.|
 |(3)|Within ETL model & rules|All of the information in this model documentation, is applicable to any distinct ETL/refresh. Any considerations about data relationships across ETLs is outside of the scope of this document. If there are requirements for relationships of data across ETLs (e.g., consistency of `PatID`s), that will be communicated separately by the Sentinel Operations Center.|
-|(4)|Sort order|New as of the 8.0.0. model is a requirement for the sort order of each table. This is promulgated to obtain execution efficiences for queries.|
-|(5)|Unique row definition|New as of the 8.0.0. model is an explicit definition of a unique row, for most tables.  If defined, no duplicate rows are permitted.|
-|(6)|Required, Conditional, Optional|New as of the 8.0.0. model is a Status column, per table description, that indicates the rules for populating each variable.|
+|(4)|Sort order|New as of the 8.0.0 model is a requirement for the sort order of each table. This is promulgated to obtain execution efficiences for queries.|
+|(5)|Unique row definition|New as of the 8.0.0 model is an explicit definition of a unique row, for most tables.  If defined, no duplicate rows are permitted.|
+|(6)|Required, Conditional, Optional|New as of the 8.0.0 model is a Status column, per table description, that indicates the rules for populating each variable.|
 |(7)|Dates are SAS dates|All date variables are SAS dates, consisting of integers, using a numeric length=4.  Formatting of date variables is optional per Data Partner preference.|
 |(8)|Times are SAS times|All time variables are SAS times, consisting of integers between 0 and 86400, using a numeric length=4. Formatting of time variables is optional per Data Partner preference.|
 |(9)|"#" lengths|The use of "#" when defining variable lengths is to indicate that this can vary across Data Partners and/or across ETLs.|
@@ -35,6 +35,6 @@ There will be at least 2 QA checks for all ID variables:
   1) The highest value found correctly fits within the numeric length established for the variable (e.g., if the highest value found is 98765, then a length of 4 has been set for the variable).
   2) The numeric length is the minimum necessary to contain all values (e.g., if the highest value found is 1589753, then a length of no more than 4 has been set for the variable).|
 
-[Return to Overview](800_1FM_overview.md)
+[Return to Overview](800_01FM_overview.md)
 
-[Navigate to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Navigate to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

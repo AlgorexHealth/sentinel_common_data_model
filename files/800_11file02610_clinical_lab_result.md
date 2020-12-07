@@ -8,8 +8,8 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `123456789` |
-| `LabID` | Num(#) | Unique laboratory results/ row identifier | Required | Useful to map back to source data. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `027`|
+| `PatID`<sup>2</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `LabID` | Num(#) | Unique laboratory results/ row identifier | Required | Useful to map back to source data. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `027`|
 | `MS_Test_Name` | Char(10) | See reference table. | Required | Abbreviated test name. Populated for all records. Several LOINC codes (`LOINC`) and/or local codes (`LOCAL_CD`) can point to one `MS_Test_Name`. | `ALP` |
 | `Result_Type` | Char(1) | `N` = numeric<br> `C` = character | Required | Indicates whether the laboratory test result in Data Partner's source data is Numeric (e.g., 100 ug/mL, <100 ug/mL, or >100 ug/mL) or Character (e.g., +, POS, POSITIVE, or ranges, such as 50-100 mg/mL). | `N` |
 | `MS_Test_Sub_ Category` | Char(6) | See reference table | Conditionally required, based on `MS_Test_Name` | Sub-category for `MS_Test_Name`. Sub-categories apply to only select laboratory tests. <br>`DIRECT` and `CLC` are populated only for `MS_Test_Name` = `CHOL_LDL`. <br>`DDU` and `FEU` is populated for only `MS_Test_Name` = `D_DIMER`, `Result_Type` = `N`<br>`BHCG` and `HCG` are populated only for `MS_Test_Name` = `PG`. | `PCR` |
@@ -53,4 +53,4 @@
 
 4. If all `FacilityID` values are unknown (i.e., set to `.U`), use Num(3) for the length of the variable.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md) 
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md) 

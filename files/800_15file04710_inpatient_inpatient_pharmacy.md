@@ -8,10 +8,10 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person&#45;level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `123456789` |
-| `EncounterID`<sup>2</sup> | Num(#) | Unique encounter identifier | Required | Arbitrary encounter&#45;level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Mother&#45;Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables.Use the fewest number of bytes necessary to hold all distinct values; ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `98765432159753` |
+| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person&#45;level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `EncounterID`<sup>2</sup> | Num(#) | Unique encounter identifier | Required | Arbitrary encounter&#45;level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Mother&#45;Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables.Use the fewest number of bytes necessary to hold all distinct values; ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `98765432159753` |
 | `NDC` | Char(11) | National Drug Code | Required | Please expunge any place holders (e.g., '\-' or extra digit) | `12345678910` |
-| `RxID` | Num(#) | Unique Rx administration identifier | Required | Useful to map back to source data. Use the fewest number of bytes necessary to hold all distinct values. Use the fewest number of bytes necessary to hold all distinct values; ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | |
+| `RxID` | Num(#) | Unique Rx administration identifier | Required | Useful to map back to source data. Use the fewest number of bytes necessary to hold all distinct values. Use the fewest number of bytes necessary to hold all distinct values; ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | |
 | `RxADate` | Num(4) | SAS date value | Required | Rx Administration date | `12/1/2019` |
 | `RxATime` | Num(4) | SAS time value HH:MM | Optional | Rx Administration time | `20:56` |
 | `RxRoute` | Char(10) | Actual route description from source system | Optional | Actual / administered route. Standard list of allowable values under development. | `IV` |
@@ -24,4 +24,4 @@
 
 2. The Encounter, Diagnosis, Procedure, Inpatient Transfusion, Inpatient Pharmacy, Vital Signs, Mother-Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables are linked by `PatID` and `EncounterID`.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

@@ -8,8 +8,8 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>3</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `123456789` |
-| `ProviderID` | Num(#)<sup>5</sup> | Unique provider identifier | Required | Identifier for the individual provider who prescribed the drug. As with the `PatID`, the provider identifier is a pseudoidentifier with a consistent crosswalk to the real identifier. If an individual provider/prescriber can not be identified, set to special missing value `.U`. This variable links to the Provider table. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `12345` |
+| `PatID`<sup>3</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person-level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `ProviderID` | Num(#)<sup>5</sup> | Unique provider identifier | Required | Identifier for the individual provider who prescribed the drug. As with the `PatID`, the provider identifier is a pseudoidentifier with a consistent crosswalk to the real identifier. If an individual provider/prescriber can not be identified, set to special missing value `.U`. This variable links to the Provider table. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `12345` |
 | `RxDate` | Num(4) | SAS date |Required |Dispensing date (as close as possible to date the person received the dispensing). | `11/29/2005` |
 | `Rx` | Char(#) | Drug Code | Required | Code representing a prescribed medication or medical device. Please expunge any place holders (e.g., ‘-‘ or extra digit). Use the fewest number of bytes to contain values for all values of `Rx_CodeType`. | `00006007431` |
 | `Rx_CodeType` | Char(2) | `ND` = National Drug Code (US)<br> `SN` = SNOMED CT (US)<br> `SK` = SNOMED CT (UK/CPRD)<br> `DM` = Dictionary of Medicines and Devices (UK)<br> `DI` = Drug Identification Number (CA)<br> `RN` = RxNorm (US)<br> `AT`= Anatomical Therapeutic Chemical Classification (DK)| Required | Code type of prescribed medication or medical device. This field combined with the `Rx` field should be used to capture any type of prescribed medication or medical device available in the source data. Other code types may be added as new terminologies are used. | `SK` |
@@ -28,4 +28,4 @@
 
 5. If all `ProviderID` values are unknown (i.e., set to `.U`), use Num(3) for the length of the variable.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_7file01300_admin_dispensing.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_07file01300_admin_dispensing.md)

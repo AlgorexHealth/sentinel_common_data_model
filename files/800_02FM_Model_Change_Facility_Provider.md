@@ -40,6 +40,6 @@ Additional details and rationale are below.
 |Facility|New table.|
 |Provider|New table.|
 
-[Return to Overview](810_overview.md)
+[Return to Overview](800_01FM_overview.md)
 
-[Navigate to SCDM Version 8.0.0. Table of Contents](atoc_scdm810.md)
+[Navigate to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

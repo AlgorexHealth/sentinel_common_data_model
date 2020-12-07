@@ -8,8 +8,8 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person&#45;level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `123456789` |
-| `EncounterID`<sup>2</sup> | Num(#) | Unique encounter identifier | Required | Arbitrary encounter&#45;level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Mother&#45;Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables. Use the fewest number of bytes necessary to hold all distinct values; see  ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx). | `98765432159753` |
+| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier | Required | Arbitrary person&#45;level identifier. Used to link across tables. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `123456789` |
+| `EncounterID`<sup>2</sup> | Num(#) | Unique encounter identifier | Required | Arbitrary encounter&#45;level identifier. Used to link across the Encounter, Diagnosis, Procedure, Vital Signs, Mother&#45;Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables. Use the fewest number of bytes necessary to hold all distinct values; see  ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0). | `98765432159753` |
 | `TransID` | Char(15) | Unique transfusion administration identifier | Required | Retain because useful to map back to source data | `123456789012345` |
 | `TransCode` | Char (15) | Code value for an infusion product | Required | Must be paired with the correct `TransCode_Type` | `123451224200599` |
 | `TransCode_Type` | Char(2) | `CD` = CODABAR<br>`IS` = ISBT | Required | Transfusion product code type. This variable combined with the `TransCode` variable should be used to capture any type of Inpatient Infusion product in the source data. Other code types will be added as new terminologies are used. | `CD` |
@@ -27,4 +27,4 @@
 
 2. The Encounter, Diagnosis, Procedure, Inpatient Transfusion, Inpatient Pharmacy, Vital Signs, Mother-Infant Linkage, Inpatient Pharmacy, Inpatient Transfusion, and Prescribing tables are linked by `PatID` and `EncounterID`.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

@@ -8,7 +8,7 @@
 
 | Variable Name | Variable Type and Length (Bytes) | Values | Status | Definition / Comments / Guideline | Example |
 | --- | --- | --- | --- | --- |--- |
-| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier| Required | Arbitrary person-level identifier. Used to link across tables. A new enrollment period generates a new record, but the same person should have the same PatID on subsequent records. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_draft_reference_tables_8.1.0_r2.xlsx).| `123456789` |
+| `PatID`<sup>1</sup> | Num(#) | Unique patient identifier| Required | Arbitrary person-level identifier. Used to link across tables. A new enrollment period generates a new record, but the same person should have the same PatID on subsequent records. Use the fewest number of bytes necessary to hold all distinct values; see ["SAS Lengths" Reference Table](SCDM_v8.0.0_reference_tables_v1.0.0).| `123456789` |
 | `Enr_Start`<sup>2</sup> | Num(4) | SAS date | Required | Date of the beginning of the enrollment period. If the exact date is unknown, use the first day of the month. `Enr_Start` should not be before January 1, 2000. | `1/1/2019` |
 | `Enr_End`<sup>2,3</sup> | Num(4) | SAS date | Required | Date of the end of the enrollment period. If the exact date is unknown, use the last day of the month. | `12/31/2019` |
 | `MedCov` | Char(1) | `Y` = Yes<br> `N` = No<br> `U` = Unknown<br> `A` = Ambulatory Only | Required | Mark as `Y` if the health plan has any responsibility for covering medical care for the member during this enrollment period (i.e., if you expect to observe medical care provided to this member during the enrollment period). Mark as `A` if only ambulatory visit coverage is provided.| `Y` |
@@ -29,4 +29,4 @@
 
     If there is no definitive information indicating that medical charts cannot be requested for member enrollment period(s), records should be assigned `Chart`=`Y`.
 
-[Return to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)

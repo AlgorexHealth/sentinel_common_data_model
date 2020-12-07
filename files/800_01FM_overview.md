@@ -19,6 +19,6 @@ This data model is freely available to all.
 * For more information about Sentinel visit the website at: [www.sentinelinitiative.org](https://www.sentinelinitiative.org/)
 * For comments and suggestions, please email: [info@sentinelsystem.org](mailto:info@sentinelsystem.org?subject=Git SCDM 8.0.0)
 
-[Navigate to SCDM Version 8.0.0. History of Modifications](800_3FM_history-of-modifications.md)
+[Navigate to SCDM Version 8.0.0 History of Modifications](800_03FM_history-of-modifications.md)
 
-[Navigate to SCDM Version 8.0.0. Table of Contents](800_0FM_atoc_scdm.md)
+[Navigate to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)
