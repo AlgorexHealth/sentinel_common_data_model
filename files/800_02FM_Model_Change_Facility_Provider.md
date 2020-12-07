@@ -1,10 +1,8 @@
 
-# Overview and Description of the Common Data Model
-
-# Model Change for Facility and Individual Provider Identification
+# Overview and Description of the Sentinel Common Data Model (SCDM) Change for Facility and Individual Provider Identification
 
 Up-versioning the Sentinel Common Data Model to v8.0.0 included substantial modifications in the service of the following goals: (1) Increasing capture of data, (2) Improving precision in organization of some of the data, and (3) Improving run-time efficiencies for data reading and manipulation.
-Additional details and rationale are below.
+Additional rationale and details are provided below.
 
 |Goal of Change|Rationale|
 |--------|--------|
@@ -19,6 +17,8 @@ Additional details and rationale are below.
 |Set all identification variables (e.g., `PatID`) to numeric data type.|Using the fewest number of bytes to hold distinct values results in less data being transferred between computer storage and computer memory, enabling increased query performance.|
 |Name all identification variables with a suffix of "ID".|Uniformity in variable naming.|
 |In the Dispensing, Diagnosis, Procedure and Inpatient Transfusion tables, enable the `Rx`, `Dx`, `Px`, and `Orig_Trans_Prod` variable lengths to be variable by Data Partners' ETLs, as the minimal length necessary to contain values.|Using the fewest number of bytes to hold distinct values results in less data being transferred between computer storage and computer memory, enabling increased query performance.|
+
+
 
 |Detailed Table Changes from Version 7.1.0|Change|
 |--------|--------|
