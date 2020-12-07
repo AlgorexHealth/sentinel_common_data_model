@@ -2,9 +2,9 @@
 # Overview and Description of the Sentinel Common Data Model (SCDM) Change for Facility and Individual Provider Identification
 
 Up-versioning the Sentinel Common Data Model to v8.0.0 included substantial modifications in the service of the following goals: (1) Increasing capture of data, (2) Improving precision in organization of some of the data, and (3) Improving run-time efficiencies for data reading and manipulation.
-Additional rationale and details are provided below.
+Additional rationale and detailed table changes from the prior version are provided below.
 
-|Goal of Change|Rationale|
+|Goal of v8.0.0 Change|Rationale|
 |--------|--------|
 |(1) Increase capture of data.|
 |Add Prescribing Table|Satisfy FDA requirement to better understand prescribing patterns which may affect medical product safety and use, particularly in the relationship of prescribing and actual dispensing.|
@@ -20,7 +20,7 @@ Additional rationale and details are provided below.
 
 
 
-|Detailed Table Changes from Version 7.1.0|Change|
+|Detailed Table Changes from Version 7.1.0 to v8.0.0|Change|
 |--------|--------|
 |All tables|`PatID`, `EncounterID`, `ProviderID`, and `FacilityID`, are set to numeric data type with as short a variable length as needed to capture all values; all identification variables end with "ID".|
 |Enrollment|Added value for `MedCov`|
