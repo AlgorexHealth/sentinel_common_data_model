@@ -3,33 +3,40 @@
 <br>
 <br>
 
-# Sentinel Common Data Model (SCDM)<br>  
+# Sentinel Common Data Model (SCDM) Version 8.0.0<br>  
 
 ### Overview<br>  
 
-The Sentinel Common Data Model (SCDM) represents the standard data structure that allows for rapid implementation of standard queries across the Sentinel Distributed Database (SDD). [<b>Sentinel routine querying tools</b>](https://dev.sentinelsystem.org/projects/AD/repos/qrp/browse) are designed to run against data transformed into the Sentinel Common Data Model format.
+This repository contains documentation (data dictionary) for the Sentinel Common Data Model (SCDM) Version 8.0.0.
 
-Sentinel routine querying tools are SAS® programs. This means the SCDM-formatted data must be in the form of SAS datasets in order to use these analytic programs.
+The SCDM currently includes 16 tables that represent information for the data elements needed for Sentinel activities. Several identifiers are used to link records across tables: a unique person identifier, `PatID`, a unique provider identifier, `ProviderID`, and a unique encounter identifier, `EncounterID`. 
 
-### What is the SCDM?<br>
+Details of the 16 tables are provided in this repository.
 
-The SCDM was developed by the Sentinel Operations Center (SOC) in accordance with the [<b>Mini-Sentinel Common Data Model Guiding Principles</b>](https://www.sentinelinitiative.org/sites/default/files/data/distributed-database/Mini-Sentinel_CommonDataModel_GuidingPrinciples_v1.0_0.pdf) and was originally modeled after the [<b>Health Care Systems Research Network Virtual Data Warehouse (HCSRN/VDW)</b>](http://www.hcsrn.org/en/Tools%20&%20Materials/VDW/).
+### How to Access SCDM 8.0.0<br>
 
-The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, `PatID`.
+To familiarize yourself with SCDM Version 8.0.0, start with:
 
-### The following versions of the SCDM are available<br>
+* [SCDM Version 8.0.0 Overview](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_01FM_overview.md?at=SCDM8.0.0)
+
+* [SCDM Version 8.0.0 History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_03FM_history-of-modifications.md?at=SCDM8.0.0)
+
+* [SCDM Version 8.0.0 Model Change Rationale and Table Details](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/00_02FM_Model_Change_Facility_Provider.md?at=SCDM8.0.0)
+
+To access the SCDM Version 8.0.0. Tables directly, start with:
+
+* [SCDM Version 8.0.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_00FM_atoc_scdm.md?at=refs%2Fheads%2FSCDM8.0.0)
+
+
+### How to Access Other SCDM Versions<br>
 
 [<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM7.1.0)<br>
 Date: 7/18/20<br>
 Updated Laboratory Result Table to add new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br>
 
 [<b>SCDM Version 8.0.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM8.0.0)<br>
-Date: 12/22/20<br>
+Date: 12/11/20<br>
 New tables: Prescribing, Facility, and Provider; certain variables set to numeric data type with as short a variable length as needed to capture all values; and all identification variable names end with "ID".<br>
-
-### Getting Started<br>
-
-To begin translating your data into the SCDM format, see the SCDM versions available at the link(s) above.
 
 ### Additional Resources <br>
 
@@ -37,6 +44,6 @@ For an example dataset in the SCDM format, please visit the Sentinel website to 
 
 ### Additional Information <br>
 
-The Sentinel Operations Center has limited capacity to support use of our tools. However, we welcome feedback, comments, and suggestions pertaining to our documentation or tools. Email us [<b>here</b>](mailto:info@sentinelsystem.org?subject=Git).  
+The Sentinel Operations Center has limited capacity to support use of our tools. However, we welcome feedback, comments, and suggestions pertaining to our documentation or tools. Email us [<b>here</b>](mailto:info@sentinelsystem.org?subject=Git 8.0.0).  
 
 [<b>Navigate back to the Sentinel Initiative SCDM web page</b>](https://www.sentinelinitiative.org/sentinel/data/distributed-database-common-data-model/sentinel-common-data-model)
