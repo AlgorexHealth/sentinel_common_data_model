@@ -8,10 +8,7 @@
 ### Overview<br>  
 
 This repository contains documentation (data dictionary) for the Sentinel Common Data Model (SCDM) Version 8.0.0.
-
-The SCDM currently includes 16 tables that represent information for the data elements needed for Sentinel activities. Several identifiers are used to link records across tables: a unique person identifier, `PatID`, a unique provider identifier, `ProviderID`, and a unique encounter identifier, `EncounterID`. 
-
-Details of the 16 tables are provided in this repository.
+The SCDM currently includes 16 tables that represent information for the data elements needed for Sentinel activities. Several identifiers are used to link records across tables: a unique person identifier, `PatID`, a unique provider identifier, `ProviderID`, and a unique encounter identifier, `EncounterID`. Details of the 16 tables are provided in this repository.
 
 ### How to Access SCDM 8.0.0<br>
 
@@ -33,10 +30,6 @@ To access the SCDM Version 8.0.0. Tables directly, start with:
 [<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM7.1.0)<br>
 Date: 7/18/20<br>
 Updated Laboratory Result Table to add new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br>
-
-[<b>SCDM Version 8.0.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM8.0.0)<br>
-Date: 12/11/20<br>
-New tables: Prescribing, Facility, and Provider; certain variables set to numeric data type with as short a variable length as needed to capture all values; and all identification variable names end with "ID".<br>
 
 ### Additional Resources <br>
 
