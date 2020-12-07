@@ -18,7 +18,7 @@ To familiarize yourself with SCDM Version 8.0.0, start with:
 
 * [SCDM Version 8.0.0 History of Modifications](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_03FM_history-of-modifications.md?at=SCDM8.0.0)
 
-* [SCDM Version 8.0.0 Model Change Rationale and Table Details](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/00_02FM_Model_Change_Facility_Provider.md?at=SCDM8.0.0)
+* [SCDM Version 8.0.0 Model Change Rationale and Table Details](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_02FM_Model_Change_Facility_Provider.md?at=SCDM8.0.0)
 
 To access the SCDM Version 8.0.0. Tables directly, start with:
 
