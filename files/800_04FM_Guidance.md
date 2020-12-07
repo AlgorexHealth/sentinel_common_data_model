@@ -9,7 +9,7 @@
 |(2)|Table names|While there are distinct table names in this model, Data Partners can name their actual SAS datasets whatever name is useful to them.  Table names also can vary across ETLs. It is through use of Common Components that actual table names are identified for Sentinel queries.|
 |(3)|Within ETL model & rules|All of the information in this model documentation, is applicable to any distinct ETL/refresh. Any considerations about data relationships across ETLs is outside of the scope of this document. If there are requirements for relationships of data across ETLs (e.g., consistency of `PatID`s), that will be communicated separately by the Sentinel Operations Center.|
 |(4)|Sort order|New as of the 8.0.0 model is a requirement for the sort order of each table. This is promulgated to obtain execution efficiences for queries.|
-|(5)|Unique row definition|New as of the 8.0.0 model is an explicit definition of a unique row, for most tables.  If defined, no duplicate rows are permitted.|
+|(5)|Unique row definition|New as of the 8.0.0 model is an explicit definition of a unique row, for most tables. If defined, no duplicate rows are permitted.|
 |(6)|Required, Conditional, Optional|New as of the 8.0.0 model is a Status column, per table description, that indicates the rules for populating each variable.|
 |(7)|Dates are SAS dates|All date variables are SAS dates, consisting of integers, using a numeric length=4.  Formatting of date variables is optional per Data Partner preference.|
 |(8)|Times are SAS times|All time variables are SAS times, consisting of integers between 0 and 86400, using a numeric length=4. Formatting of time variables is optional per Data Partner preference.|
