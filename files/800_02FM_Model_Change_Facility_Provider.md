@@ -1,10 +1,10 @@
 
-# Overview and Description of the Sentinel Common Data Model (SCDM) Change for Facility and Individual Provider Identification
+# Overview and Description of the Sentinel Common Data Model (SCDM) v8.0.0 Enhancements
 
 Up-versioning the Sentinel Common Data Model to v8.0.0 included substantial modifications in the service of the following goals: (1) Increasing capture of data, (2) Improving precision in organization of some of the data, and (3) Improving run-time efficiencies for data reading and manipulation.
 Additional rationale and detailed table changes from the prior version are provided below.
 
-|Goal of v8.0.0 Change|Rationale|
+|Goal of v8.0.0 Enhancements|Rationale|
 |--------|--------|
 |(1) Increase capture of data.|
 |Add Prescribing Table|Satisfy FDA requirement to better understand prescribing patterns which may affect medical product safety and use, particularly in the relationship of prescribing and actual dispensing.|
