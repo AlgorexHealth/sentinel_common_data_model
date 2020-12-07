@@ -16,9 +16,14 @@ The SCDM was developed by the Sentinel Operations Center (SOC) in accordance wit
 The SCDM includes various tables of data elements. Records are linked across tables by a unique person identifier, `PatID`. 
 
 ### The following versions of the SCDM are available<br>
+
 [<b>SCDM Version 7.1.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM7.1.0)<br>
 Date: 7/18/20<br>
-Updated Laboratory Result Table to add new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br> 
+Updated Laboratory Result Table to add new allowable values to several existing variables in order to include new Covid-19 diagnostic test results.<br>
+
+[<b>SCDM Version 8.0.0</b>](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse?at=SCDM8.0.0)<br>
+Date: 12/11/20<br>
+New tables: Prescribing, Facility, and Provider; certain variables set to numeric data type with as short a variable length as needed to capture all values; and all identification variable names end with "ID".<br>
 
 ### Getting Started<br>
 To begin translating your data into the SCDM format, see the SCDM versions available at the link(s) above.
