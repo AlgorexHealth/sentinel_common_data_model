@@ -3,7 +3,7 @@
 
 # Model Change for Facility and Individual Provider Identification
 
-Up-versioning the Sentinel Common Data Model to v8.0.0. included substantial modifications in the service of the following goals: (1) Increasing capture of data, (2) Improving precision in organization of some of the data, and (3) Improving run-time efficiencies for data reading and manipulation.
+Up-versioning the Sentinel Common Data Model to v8.0.0 included substantial modifications in the service of the following goals: (1) Increasing capture of data, (2) Improving precision in organization of some of the data, and (3) Improving run-time efficiencies for data reading and manipulation.
 Additional details and rationale are below.
 
 |Goal of Change|Rationale|
@@ -41,5 +41,7 @@ Additional details and rationale are below.
 |Provider|New table.|
 
 [Return to Overview](800_01FM_overview.md)
+
+[Return to History of Modifications](800_03FM_history-of-modifications.md)
 
 [Navigate to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)
