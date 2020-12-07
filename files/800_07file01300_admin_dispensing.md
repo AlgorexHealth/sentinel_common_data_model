@@ -28,4 +28,4 @@
 
 5. If all `ProviderID` values are unknown (i.e., set to `.U`), use Num(3) for the length of the variable.
 
-[Return to SCDM Version 8.0.0 Table of Contents](800_07file01300_admin_dispensing.md)
+[Return to SCDM Version 8.0.0 Table of Contents](800_00FM_atoc_scdm.md)
