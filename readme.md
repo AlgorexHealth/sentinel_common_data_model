@@ -24,6 +24,9 @@ To access the SCDM Version 8.0.0. Tables directly, start with:
 
 * [SCDM Version 8.0.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/800_00FM_atoc_scdm.md?at=refs%2Fheads%2FSCDM8.0.0)
 
+For an SCDM Version 8.0.0 you can download and print, go here:
+
+* [SCDM Version 8.0.0 for Download](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/Sentinel_Common_Data_Model_v8.0.0%20POST.docx?at=refs%2Fheads%2FSCDM8.0.0)
 
 ### How to Access Other SCDM Versions<br>
 
