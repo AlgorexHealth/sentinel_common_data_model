@@ -16,7 +16,11 @@ To familiarize yourself with SCDM Version 7.1.0, start with:
 
 To access the SCDM Version 7.1.0 Tables directly, start with:
 
-* [SCDM Version 7.1.0. Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
+* [SCDM Version 7.1.0 Table of Contents](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/atoc_scdm.md?at=refs%2Fheads%2FSCDM7.1.0)
+
+For an SCDM Version 7.1.0 you can download and print, go here:
+
+* [SCDM Version 7.1.0 for Download](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse/files/Sentinel_Common_Data_Model_v7.1.0.docx?at=refs%2Fheads%2FSCDM7.1.0)
 
 ### How to Access Other SCDM Versions<br>
 
