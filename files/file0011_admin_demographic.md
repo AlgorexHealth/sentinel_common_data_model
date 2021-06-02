@@ -6,7 +6,7 @@ Description: The SCDM Demographic Table contains one record per `PatID` with the
 | --- | --- | --- | --- | --- |
 | `PatID`<sup>1</sup> | Char (Site specific length) | Unique member identifier | Arbitrary person-level identifier. Used to link across tables. | `123456789012345` |
 | `Birth_Date` | Numeric (4) | SAS date | Date of birth. | `12/5/1971` |
-| `Sex` | Char (1) | `A` = Ambiguous (e.g., transgender/hermaphrodite)<br>`F` = Female<br>`M` = Male<br>`U` = Unknown | Sex. | `F` |
+| `Sex` | Char (1) | `A` = Ambiguous (e.g., transgender)<br>`F` = Female<br>`M` = Male<br>`U` = Unknown | Sex. | `F` |
 | `Hispanic` | Char (1) | `N` = No<br>`Y` = Yes<br> `U` = Unknown | A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. | `N` |
 | `Race` | Char (1) | `0` = Unknown | Please use only one race value per member.<br> | `2` |
 | | | `1` = American Indian or Alaska Native | A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment. | |
