@@ -5,6 +5,9 @@
 
 # Sentinel Common Data Model (SCDM)<br>  
 
+*this is a fork please view the actual version on [bitbucket](https://dev.sentinelsystem.org/projects/SCDM/repos/sentinel_common_data_model/browse)*
+
+
 ### Overview<br>  
 The Sentinel Common Data Model (SCDM) represents the standard data structure that allows for rapid implementation of standard queries across the Sentinel Distributed Database (SDD). [<b>Sentinel routine querying tools</b>](https://dev.sentinelsystem.org/projects/AD/repos/qrp/browse) are designed to run against data transformed into the Sentinel Common Data Model format.
 
